@@ -1,0 +1,2 @@
+# ERD
+- ### Follow this link to view and edit ERD diagram [Database](https://lucid.app/lucidchart/f610728b-20ed-48d4-bdf5-b70f54c47028/edit?viewport_loc=-218%2C220%2C2211%2C1172%2C0_0&invitationId=inv_ae13096e-4f1a-4a95-848d-3c21c3c49f70)
