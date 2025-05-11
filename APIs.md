@@ -1,0 +1,91 @@
+# API Documentation
+
+- ## auth
+  - ### login
+    - #### Reason
+      - To authenticate the user
+    - ### endpoint
+      - /api/auth/login/
+  - ## signup
+    - #### Reason
+      - To register new user 
+    - ### endpoint
+      - /api/auth/register/
+  - ## otp using email
+    - #### Reason
+      - send otp for email to check mail validation
+    - ### endpoint
+      - /api/auth/send-otp/
+  - ## otp check
+    - #### Reason
+      - check the otp 
+    - ### endpoint
+      - /api/auth/check-otp/
+  - ## check email
+    - #### Reason
+      - To check the email in the phase of reset password
+    - ### endpoint
+      - /api/auth/check-mail/
+  - ## reset password
+    - #### Reason
+      - To reset the password of the user
+    - ### endpoint
+      - /api/auth/reset-password/
+
+- ## user
+    - ## update_user
+      - #### Reason
+        - To update user data
+      - ### endpoint
+        - /api/user/update/
+    - ## add problem-solving site handle
+      - #### Reason
+        - To add the handle of the user in different OJ (atcoder , cf)
+      - ### endpoint
+        - /api/user/add-handle/
+    - ## check handle
+      - #### Reason
+        - To check if the handle is correct
+      - ### endpoint
+        - /api/user/check-handle/
+
+- ## chat:
+  - ## start new chat
+    - #### Reason
+      - To create new chat
+    - ### endpoint
+      - /api/chat/create/
+  - ## get chat history list
+    - #### Reason
+      - To get list of all user's chats (chat_id , name , last_opened) 
+    - ### endpoint
+      - /api/chat/history/
+  - ## get chat
+    - #### Reason
+      - To get specific chat data
+    - ### endpoint
+      - /api/chat/{chat_id}/
+  - ## send prompt
+    - #### Reason
+      - To send prompt for a specific chat and be answered 
+    - ### endpoint
+      - /api/chat/send-prompt/{chat_id}/
+  - ## delete chat
+    - #### Reason
+      - To delete specific chat
+    - ### endpoint
+      - /api/chat/delete/{chat_id}/
+
+- ## profile:
+  - ## get OJ (online judge) data
+    - #### Reason
+      - to get the data of an OJ handle
+    - ### endpoint
+      - /api/profile/?site=(atcoder , cf)
+
+- ## settings
+ - ## get available settings
+    - #### Reason
+      - To get the available settings for the current user
+    - ### endpoint
+      - /api/settings/
