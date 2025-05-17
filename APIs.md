@@ -49,7 +49,7 @@
       - ### endpoint
         - /api/user/check-handle/
 
-- ## chat:
+- ## chat
   - ## start new chat
     - ### Reason
       - To create new chat
@@ -76,7 +76,7 @@
     - ### endpoint
       - /api/chat/delete/{chat_id}/
 
-- ## profile:
+- ## profile
   - ## get OJ (online judge) data
     - ### Reason
       - to get the data of an OJ handle
