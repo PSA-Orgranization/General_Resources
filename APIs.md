@@ -2,83 +2,83 @@
 
 - ## auth
   - ### login
-    - #### Reason
+    - ### Reason
       - To authenticate the user
     - ### endpoint
       - /api/auth/login/
   - ## signup
-    - #### Reason
+    - ### Reason
       - To register new user 
     - ### endpoint
       - /api/auth/register/
   - ## otp using email
-    - #### Reason
+    - ### Reason
       - send otp for email to check mail validation
     - ### endpoint
       - /api/auth/send-otp/
   - ## otp check
-    - #### Reason
+    - ### Reason
       - check the otp 
     - ### endpoint
       - /api/auth/check-otp/
   - ## check email
-    - #### Reason
+    - ### Reason
       - To check the email in the phase of reset password
     - ### endpoint
       - /api/auth/check-mail/
   - ## reset password
-    - #### Reason
+    - ### Reason
       - To reset the password of the user
     - ### endpoint
       - /api/auth/reset-password/
 
 - ## user
     - ## update_user
-      - #### Reason
+      - ### Reason
         - To update user data
       - ### endpoint
         - /api/user/update/
     - ## add problem-solving site handle
-      - #### Reason
+      - ### Reason
         - To add the handle of the user in different OJ (atcoder , cf)
       - ### endpoint
         - /api/user/add-handle/
     - ## check handle
-      - #### Reason
+      - ### Reason
         - To check if the handle is correct
       - ### endpoint
         - /api/user/check-handle/
 
-- ## chat:
+- ## chat
   - ## start new chat
-    - #### Reason
+    - ### Reason
       - To create new chat
     - ### endpoint
       - /api/chat/create/
   - ## get chat history list
-    - #### Reason
+    - ### Reason
       - To get list of all user's chats (chat_id , name , last_opened) 
     - ### endpoint
       - /api/chat/history/
   - ## get chat
-    - #### Reason
+    - ### Reason
       - To get specific chat data
     - ### endpoint
       - /api/chat/{chat_id}/
   - ## send prompt
-    - #### Reason
+    - ### Reason
       - To send prompt for a specific chat and be answered 
     - ### endpoint
       - /api/chat/send-prompt/{chat_id}/
   - ## delete chat
-    - #### Reason
+    - ### Reason
       - To delete specific chat
     - ### endpoint
       - /api/chat/delete/{chat_id}/
 
-- ## profile:
+- ## profile
   - ## get OJ (online judge) data
-    - #### Reason
+    - ### Reason
       - to get the data of an OJ handle
     - ### endpoint
       - /api/profile/?site=(atcoder , cf)
