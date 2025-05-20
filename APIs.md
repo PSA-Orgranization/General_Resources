@@ -5,32 +5,32 @@
     - ### Reason
       - To authenticate the user
     - ### endpoint
-      - /api/auth/login/
+      - /api/auth/login/ (post)
   - ## signup
     - ### Reason
       - To register new user 
     - ### endpoint
-      - /api/auth/register/
+      - /api/auth/register/ (post)
   - ## otp using email
     - ### Reason
       - send otp for email to check mail validation
     - ### endpoint
-      - /api/auth/send-otp/
+      - /api/auth/otp/ (post)
   - ## otp check
     - ### Reason
       - check the otp 
     - ### endpoint
-      - /api/auth/check-otp/
+      - /api/auth/otp/ (get)
   - ## check email
     - ### Reason
       - To check the email in the phase of reset password
     - ### endpoint
-      - /api/auth/check-mail/
+      - /api/auth/check_mail/ (get)
   - ## reset password
     - ### Reason
       - To reset the password of the user
     - ### endpoint
-      - /api/auth/reset-password/
+      - /api/auth/reset_password/ (post)
 
 - ## user
     - ## update_user
@@ -42,12 +42,12 @@
       - ### Reason
         - To add the handle of the user in different OJ (atcoder , cf)
       - ### endpoint
-        - /api/user/add-handle/
+        - /api/user/add_handle/
     - ## check handle
       - ### Reason
         - To check if the handle is correct
       - ### endpoint
-        - /api/user/check-handle/
+        - /api/user/check_handle/
 
 - ## chat
   - ## start new chat
@@ -69,7 +69,7 @@
     - ### Reason
       - To send prompt for a specific chat and be answered 
     - ### endpoint
-      - /api/chat/send-prompt/{chat_id}/
+      - /api/chat/send_prompt/{chat_id}/
   - ## delete chat
     - ### Reason
       - To delete specific chat
