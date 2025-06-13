@@ -81,7 +81,7 @@
     - ### Reason
       - to get the data of an OJ handle
     - ### endpoint
-      - /api/profile/?site=(atcoder , cf)
+      - /api/profile/oj_insights/{{site}}/
 
 - ## settings
  - ## get available settings
