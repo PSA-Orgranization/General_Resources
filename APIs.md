@@ -20,7 +20,7 @@
     - ### Reason
       - check the otp 
     - ### endpoint
-      - /api/auth/otp/ (get)
+      - /api/auth/otp/ (POST)
   - ## check email
     - ### Reason
       - To check the email in the phase of reset password
